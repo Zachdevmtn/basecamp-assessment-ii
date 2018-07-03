@@ -75,8 +75,8 @@ var trueFriends = peopleIknow.filter( function(arr) {
 let randomNumbers = [1, 3453, 34, 456, 32, 3, 2, 0];
 
 function indexFinder(arr){
- let indexes = arr.map((val,i,arr) => {
-   return i;
+ let indexes = arr.map((val,i,ar) => {
+   return arr.indexOf(i);
  });  return indexes;
 };
 
