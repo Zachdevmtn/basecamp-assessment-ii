@@ -74,11 +74,12 @@ var trueFriends = peopleIknow.filter( function(arr) {
 // Create a new variable called 'indexes' and set it to contain the indexes of randomNumbers.
 let randomNumbers = [1, 3453, 34, 456, 32, 3, 2, 0];
 
-
 function indexFinder(){
-randomNumbers.forEach(function(el){
-indexes.push(indexOf(el))
-}); return indexes;
-};
-
-// frustrated by the fact that I can't complete this problem.
+  for(i=0;i<randomNumbers.length;i++){
+      return randomNumbers.map(function(num){
+      return num = randomNumbers.indexOf(num);
+      });
+  };
+  };
+  
+  indexes = indexFinder();
